@@ -5,6 +5,10 @@ const sidebars = {
       label: 'Dynamic Programming',
       collapsible: true,
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'DSA/DynamicProgramming/index',
+      },
       items: [
         {
           type: 'category',

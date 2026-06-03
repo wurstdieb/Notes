@@ -67,10 +67,10 @@ const config = {
       copyright: `Built with Docusaurus`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-      additionalLanguages: ['cpp', 'python'],
-    },
+  theme: prismThemes.nightOwlLight,
+  darkTheme: prismThemes.nightOwl,
+  additionalLanguages: ['cpp', 'python'],
+},
   }),
 };
 
