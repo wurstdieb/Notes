@@ -128,5 +128,16 @@ for(int i = n-1; i>= 0;i--){
     }
 }
 int ans = dp[0][sum];
-```
+```  
+## Forms at a Glance
+
+**Form 1 (Knapsack):** Take/skip decisions over a sequence with a carried constraint. The classic 0/1 knapsack and all its variants.
+
+**Form 2 (Ending at i):** Subproblem is defined over `[0...i]`, building up to the full array. Use when the answer at `i` depends on everything before it.
+
+**Form 3 (Multiple Sequences):** Two or more sequences tracked simultaneously with state `(i, j, ...)`. LCS, edit distance, string matching.
+
+**Form 4 (Interval / LRDP):** Optimize over merging or splitting ranges with state `(l, r)`. Hierarchical — subrange results feed into parent ranges.
+
+**Form 5 (Game Theory):** Classify game states as winning or losing. A state is winning iff at least one reachable next state is losing.
 
