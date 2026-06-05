@@ -19,7 +19,7 @@ const sidebars = {
             type: 'doc',
             id: 'DSA/DynamicProgramming/Form1/index',
           },
-          items: ['DSA/DynamicProgramming/Form1/problem1'],
+          items: ['DSA/DynamicProgramming/Form1/problem1', 'DSA/DynamicProgramming/Form1/Knapsack'],
         },
         {
           type: 'category',
@@ -30,7 +30,7 @@ const sidebars = {
             type: 'doc',
             id: 'DSA/DynamicProgramming/Form2/index',
           },
-          items: [],
+          items: ['DSA/DynamicProgramming/Form2/Substrings'],
         },
         {
           type: 'category',
