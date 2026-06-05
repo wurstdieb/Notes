@@ -30,7 +30,7 @@ const sidebars = {
             type: 'doc',
             id: 'DSA/DynamicProgramming/Form2/index',
           },
-          items: ['DSA/DynamicProgramming/Form2/Substrings'],
+          items: ['DSA/DynamicProgramming/Form2/Substrings', 'DSA/DynamicProgramming/Form2/GridTraversal'],
         },
         {
           type: 'category',
