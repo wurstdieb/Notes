@@ -78,3 +78,30 @@ p {
   height: auto;
   border-radius: 8px;
 }
+
+[data-theme='dark'] .main-wrapper {
+  background-color: #000000;
+}
+
+
+.docPage_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-styles-module {
+  max-width: 100% !important;
+}
+
+article {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+[data-theme='light'] video {
+  filter: invert(1);
+}
+
+[data-theme='light'] .navbar {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+[data-theme='light'] .navbar__link {
+  color: #000000;
+}
