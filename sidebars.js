@@ -30,7 +30,7 @@ const sidebars = {
             type: 'doc',
             id: 'DSA/DynamicProgramming/Form2/index',
           },
-          items: ['DSA/DynamicProgramming/Form2/Substrings', 'DSA/DynamicProgramming/Form2/GridTraversal'],
+          items: ['DSA/DynamicProgramming/Form2/Substrings', 'DSA/DynamicProgramming/Form2/GridTraversal','DSA/DynamicProgramming/Form2/LIS' ],
         },
         {
           type: 'category',
@@ -41,7 +41,7 @@ const sidebars = {
             type: 'doc',
             id: 'DSA/DynamicProgramming/Form3/index',
           },
-          items: [],
+          items: ['DSA/DynamicProgramming/Form3/LCS'],
         },
         {
           type: 'category',

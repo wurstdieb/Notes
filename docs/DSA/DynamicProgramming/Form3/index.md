@@ -2,7 +2,10 @@
 title: Form 3
 ---
 
-Problems that involve considering multiple sequences can be solved using Form 3. Note that the subproblem definition may differ from the actual problem to be solved. The DP state looks something like `(info_seq1, info_seq2, extra constraints...)`. Consider the question below:
+Problems that involve considering multiple sequences can be solved using Form 3. Note that the subproblem definition may differ from the actual problem to be solved. The DP state looks something like `(info_seq1, info_seq2, extra constraints...)`.  
+  
+![alt text](image.png)  
+Consider the question below:
 
 Given two strings S, T find the length of the longest common substring and also print it. Given sizes `N, M <= 1e3`.
 
