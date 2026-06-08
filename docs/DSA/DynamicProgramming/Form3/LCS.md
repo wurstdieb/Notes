@@ -68,6 +68,26 @@ public:
     }
 };
 ```  
+Also can be done by defining DP(i,j) as LCS of s[i...n], t[i...m] , take one extra element in the end:  
+```cpp
+int rec(int i, int j){
+    if(i == n && j == m)return 0;
+    if(dp[i][j]!= -1)return dp[i][j];
+    int ans = 0;
+    if(i < n){
+        ans = max(ans, rec(i+1,j));
+    }
+    if(j < m){
+        ans = max(ans, rec(i,j+1));
+    }
+    if(i < n && j < m){
+        if(s[i] == t[j]){
+            ans = max(ans, rec(i+1, j+1)+1);
+        }
+    }
+    return dp[i][j] = ans;
+}
+```  
 ## Follow-up  
 Now assume instead of 2 strings, the problem asks to find the LCS of 3 strings. Let those strings be:  
 s = "AGGTAB", t = "GXTXATB', and u = "AXTGXB". It would only be natural to think that this can be solved by first finding the LCS of the first two strings i.e. "GTAB" and then finding the LCS of this string with the string u, which would give us "GB", but by visual inspection we can see that "ATB" is a better solution. The issue arises as while finding the LCS of the first two strings we don't consider smaller strings which later might yield better results overall, we ignore "ATB" as its a length 3 string , and take "GTAB" as its 4, but doing so would only lead to errors. So the only way to do it would be to do it parallely.    
