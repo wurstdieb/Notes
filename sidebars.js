@@ -41,7 +41,7 @@ const sidebars = {
             type: 'doc',
             id: 'DSA/DynamicProgramming/Form3/index',
           },
-          items: ['DSA/DynamicProgramming/Form3/LCS'],
+          items: ['DSA/DynamicProgramming/Form3/LCS','DSA/DynamicProgramming/Form3/DUS' ],
         },
         {
           type: 'category',
