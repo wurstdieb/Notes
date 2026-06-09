@@ -55,7 +55,7 @@ const sidebars = {
             type: 'doc',
             id: 'DSA/DynamicProgramming/Form4/index',
           },
-          items: [],
+          items: ['DSA/DynamicProgramming/Form4/BurstBalloons'],
         },
         {
           type: 'category',
