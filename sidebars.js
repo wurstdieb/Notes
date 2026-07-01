@@ -70,6 +70,17 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'Bit Manipulation',
+      collapsible: true,
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'DSA/BitManipulation/index',
+      },
+      items: [],
+    },
   ],
 };
 
