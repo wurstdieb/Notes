@@ -4,7 +4,7 @@ const sidebars = {
       type: 'category',
       label: 'Dynamic Programming',
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       link: {
         type: 'doc',
         id: 'DSA/DynamicProgramming/index',
@@ -74,12 +74,24 @@ const sidebars = {
       type: 'category',
       label: 'Bit Manipulation',
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       link: {
         type: 'doc',
         id: 'DSA/BitManipulation/index',
       },
-      items: [],
+      items: [
+        {
+          type: 'category',
+          label: 'FAQs',
+          collapsible: true,
+          collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'DSA/BitManipulation/FAQs/index'
+          },
+          items:[]
+        }
+      ],
     },
   ],
 };
