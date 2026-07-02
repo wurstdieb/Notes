@@ -14,7 +14,7 @@ NOT           | ~      | ~1101        | 0010
 Left Shift    | <<     | 1101 << 2    | 110100
 Right Shift   | >>     | 1101 >> 2    | 0011
 ```  
-Read and add sections on 2's compliment, where to use ints, and where to use unsigned ints, and which is easier in most scenarios:  
+Read and add sections on 2's compliment, where to use ints, and where to use unsigned ints, and which is easier in most scenarios:
 
 
 Bit Manipulation Techniques:  

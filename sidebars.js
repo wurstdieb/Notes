@@ -90,6 +90,30 @@ const sidebars = {
             id: 'DSA/BitManipulation/FAQs/index'
           },
           items:[]
+        },
+        {
+          type: 'category',
+          label: 'Application 1',
+          collapsible: true,
+          collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'DSA/BitManipulation/Application 1/index'
+          },
+          items:[]
+        },
+        {
+          type: 'category',
+          label: 'Mixed Practice',
+          collapsible: true,
+          collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'DSA/BitManipulation/MixedPractice/index'
+          },
+          items:['DSA/BitManipulation/MixedPractice/sxorsum',
+                'DSA/BitManipulation/MixedPractice/bdiffpos'
+          ]
         }
       ],
     },
