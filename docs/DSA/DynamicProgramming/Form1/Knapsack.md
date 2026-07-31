@@ -24,6 +24,19 @@ int rec(int i, int x){
     return dp[i][x] = ans;
 }
 ```  
+```cpp
+int knapsack( vector<int> &w, vector<int> &v, int wmax){//given sum of all weights <= 1e5
+    vector<int> dp(wmax+10, 0);
+    dp[0] = 0;
+    for(int i = 0 ; i < w.size();i++){
+        for(int wprev = wmax; wprev >= w[i]; wprev--){
+            dp[wprev] = max(dp[wprev], dp[wprev - w[i]]+v[i]);
+        }
+    }
+    return dp[wmax];
+}
+```
+
 ## Follow-up questions  
 1. Print a solution for the above question. 
 1. How would the solution change if each item were available in an infinite quantity?
