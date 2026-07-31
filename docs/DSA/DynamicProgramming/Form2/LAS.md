@@ -1,7 +1,7 @@
 ---
 title: Longest Arithmetic Subsequence
 ---
-Given an array nums of integers, return the length of the longest arithmetic subsequence in nums. [Link](LIS.md) 
+Given an array nums of integers, return the length of the longest arithmetic subsequence in nums. [Link](https://leetcode.com/problems/longest-arithmetic-subsequence/description/) 
 
 Note that:  
 
